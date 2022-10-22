@@ -122,7 +122,9 @@ body {
 
 .videos_container {
     display : flex;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap :wrap;
 }
 
 .video {
