@@ -1,1 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    margin: 0;
+}
+
+.main{
+    background-color: blue;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: left;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left img{
+    width: 35px;
+    margin-left: 15px;
+}
+
+.header-mid{
+    display: flex;
+    align-items: center;
+}
+
+.header-mid input{
+    width: 500px;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+.header-mid form{
+    margin: 0;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+.header-mid button{
+    height: 100%;
+    width: 60px;
+    border-radius: 0;
+    border: none;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.material-icons{
+    color: grey;
+}
+
+.sidebar{
+    width: 230px;
+}
+
+.videos{
+    background-color: red;
+    width: 100%;
+}
+
+.sidebar-categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-category{
+    padding: 12px 25px;
+    
+}
+
+.sidebar-category .material-icons{
+    margin-right: 15px;
+}
+
+.video{
+
+    width: 310px;
+}
+
+.video_author img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.video_details{
+    display: flex;
+}
+
+.video_title h3{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.video-container{
+    display:flex;
+}
