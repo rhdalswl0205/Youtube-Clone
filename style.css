@@ -1,1 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+ body {
+    margin: 0;
+}
+.header{
+   
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main{
+    background-color: green;
+    height: calc(100vh - 70px);
+}
+.header_left {
+   
+    display: flex;
+    align-items:center;
+    
+}
+.header_mid {
+  
+    display: flex;
+    align-items:center;
+}
+.header_right {
+    background-color: gray;
+}
+.header_left img{
+    width: 100px;
+}
+.header_left .material-icons{
+    font-size: 250%;
+}
+.header_mid form {
+    display: flex;
+    align-items:center;
+    height: 35px;
+    border: 1px solid gray;
+
+
+}
+.header_mid input{
+    width: 500px;
+    border: none;
+    height: 100%;
+}
+.header_mid button{
+    border: :none;
+    height: 100%;
+}
+.header_right span{
+    margin:10px;
+font-size: 200%;
+}
